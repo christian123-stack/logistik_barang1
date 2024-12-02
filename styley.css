@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+text-align:center;
+  }
+  
+  #loginPage {
+    border:1px;
+        width:400px;
+    height:500px;
+     background:url('9aa7d210fbc08602d874386d03a90ff0.jpg'); 
+    margin-left:450px;
+    margin-top:15px;
+    color:white;
+    /* menghilangkan sudut pada kotak */
+    border-radius:20px;
+    /* memberikan efek bayangan  */
+    box-shadow:0px 0px 20px rgba(0,0,0.75);
+    /* membuat gambar agar tampilan memenuhi kotak  */
+    background-size: cover;
+    background-position:center;
+    overflow:hidden;
+   gap:13px; 
+
+}
+ #mainPage {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  input {
+    background:rgba(225, 225, 225, 0.3);
+height:40px; /* ukuran tinggi */
+line-height:40px;
+border-radius:20px;
+border:none;
+margin-bottom: 20px; /* jarak spasi ke bawah */
+padding: 0px 20px; /* menambah spasi placeholder atau inputan ke kanan */
+backdrop-filter: brightness(30%);
+margin-left: 24px;
+width: 240px;
+margin-top:32px;
+color:rgb(231, 231, 13);
+        text-transform:uppercase; /* mengubahh gaya font */
+        font-size:10px;
+letter-spacing:2px;/* spasi tiap huruf */
+    padding-left:10px
+}
+  
+  button {
+    width: 280px;
+    padding: 10px;
+    background-color: #0b128e;
+    color: white;
+    border: none;
+    cursor: pointer;
+  margin-top:32px;
+border-radius:20px;  
+margin-left: 30px;
+
+}
+
+  
+  button:hover {
+    background-color: #d01212;
+    box-shadow:0px 0px 30px #d01212;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.delete:hover {
+    background-color: #d32f2f;
+  }
+  input::placeholder{
+    color:yellow;
+    backdrop-filter: brightness(40%);
+  }
+  

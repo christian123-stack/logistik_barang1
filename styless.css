@@ -1,0 +1,124 @@
+/* Reset margin dan padding untuk memastikan konsistensi tampilan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Menata body halaman */
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Bagian halaman utama */
+  #mainPage {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Judul halaman */
+  h2, h3 {
+    text-align: center;
+    color: #333;
+margin-top:12px; 
+}
+  
+  /* Gaya form input barang */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-top:12px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+margin-top:12px; 
+}
+  
+  button:hover {
+    background-color: #d21919;
+box-shadow:0px 0px 25px #d21919;  
+}
+  
+  /* Tabel barang */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Gaya untuk tombol hapus */
+  button.delete {
+    background-color:green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.delete:hover {
+    background-color: #d32f2f;
+    box-shadow:0px 0px 25px #d21919;
+  }
+  
+  /* Tombol Logout */
+  #logoutBtn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  #logoutBtn:hover {
+    background-color: #d21919;
+    box-shadow:0px 0px 25px #d21919;
+  }
+  

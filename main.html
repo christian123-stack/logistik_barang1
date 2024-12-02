@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Barang Kadaluarsa</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <div id="mainPage">
+    <h2>Input Barang</h2>
+    <form id="barangForm">
+      <input type="text" id="barangNama" placeholder="Nama Barang" required>
+      <input type="number" id="jumlah" placeholder="Jumlah Barang" required>
+      <input type="date" id="kadaluarsa" placeholder="Tanggal Kadaluarsa" required>
+      <button type="submit">Tambah Barang</button>
+    </form>
+    
+    <h3>Daftar Barang</h3>
+    <table id="barangTable">
+      <thead>
+        <tr>
+          <th>Nama Barang</th>
+          <th>Jumlah</th>
+          <th>Tanggal Kadaluarsa</th>
+          <th>Status</th>
+          <th>Hari Lagi</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data Barang Akan Ditampilkan Di Sini -->
+      </tbody>
+    </table>
+
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
